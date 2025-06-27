@@ -60,20 +60,20 @@ const Nav = () => {
 
             <div className="space-y-6 border-t border-gray-200 px-4 py-6">
               <div className="flow-root">
-                <a
-                  href="#"
+                <Link
+                  to="/sign-in"
                   className="-m-2 block p-2 font-medium text-gray-900"
                 >
                   Sign in
-                </a>
+                </Link>
               </div>
               <div className="flow-root">
-                <a
-                  href="#"
+                <Link
+                  to="register"
                   className="-m-2 block p-2 font-medium text-gray-900"
                 >
                   Create account
-                </a>
+                </Link>
               </div>
             </div>
           </DialogPanel>
